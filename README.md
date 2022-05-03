@@ -1,2 +1,4 @@
 # MeusProjetos
-Um pouco dos meus conhecimentos
+Um bot em Python para aceitar partidas de um jogo
+
+
