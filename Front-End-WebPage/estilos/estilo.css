@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.logo h1{
+    font-family: 'Oleo Script', cursive;
+    color: #842c85;
+    font-size: 34px;
+}
+
+.nav-container{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    flex: 20%;
+    text-align: left;
+    margin-left: 10%;
+}
+.navbar{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+    
+     
+} 
+.navbar a{
+    text-decoration: none;
+    color: #842c85;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.navbar a:hover{
+    border-top: 4px solid #842c85;
+    color: #ffb702;
+}
+#btn-contato{
+    padding: 10px 25px;
+    background: #842c85;
+    border-radius: 5px;
+    color: white;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#btn-contato:hover{
+    border: none;
+    background: #ffb702;
+
+
+}
+.header{
+    height: auto;
+    padding-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #842c85;
+    padding: 0;
+    margin: 0;
+}
+.headline p{
+    color: gray;
+    text-align: center;
+
+}
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+}
+.img-headline{
+    flex: 40%;
+    margin-right: 10%;
+    text-align: center;
+}
+.contact-btn{
+    display: inline-block;
+    border-radius: 5px;
+    background: #842c85;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.contact-btn:hover{
+    background: #ffb702 ;
+
+}
+section{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+}
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Oleo Script', cursive;
+    font-weight: bold;
+    color: #842c85;
+    text-shadow: 2px black;
+    padding-bottom: 20px;
+    
+}
+.service{
+    display: inline-block;
+    margin-top: 5%;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1px ;
+    border: 1px solid #842c85;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card:hover .hover-text{
+    display: block;
+}
+.hover-text{
+    display: none;
+}
+.card:hover{
+    padding: 60px;
+    background: #842c85;
+    color: white;
+}
+.card:hover img{
+    display: none;
+}
+.card:hover .card-text{
+    display: none;
+}
+footer{
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(180deg,#842c85, #230124, black );
+    text-align: center;
+    border-top: 5px solid #ffb702;
+}
+.logo-footer{
+    padding: 100px;
+}
+.footer-title{
+    font-family: 'Oleo Script', cursive;
+    color: white;
+    font-size: 34px;
+}
