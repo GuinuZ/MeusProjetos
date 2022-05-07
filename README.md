@@ -1,4 +1,4 @@
 # MeusProjetos
-Um bot em Python para aceitar partidas de um jogo
+Varios projetos em varias linguagens feitos por mim, para a pratica e aprimoramento do conhecimento e habilidades.
 
 
