@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Projeto JS</title>
+</head>
+<body>
+    <header>
+            <h1>Notas para Media</h1>
+            <div class="inserir">
+                <input type="number" name="nota" id="nota" placeholder="Insira as notas">
+                <input  onclick="verificar() "type="button" value="Inserir" id="btn-inserir">
+            </div>
+    </header>
+    <section>
+        <div id="show"></div>
+        <div class="res">
+            <input onclick="calcularMedia()" type="button" value="Media" id="btn-media"><input onclick="limpar()" type="button" value="limpar" id="btn-limpar">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

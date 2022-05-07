@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+}
+h1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    letter-spacing: 2px;
+}
+#nota{
+    padding: 20px;
+}
+#btn-inserir{
+    padding: 20px;
+}
+.inserir{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#show p{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(180, 245, 83);
+    padding: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: gray;
+
+}
+.res{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.res p{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(180, 245, 83);
+    padding: 5px;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#btn-media{
+    padding: 15px;
+    margin-top: 10px;
+    background: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+#btn-limpar{
+    padding: 15px;
+    margin-top: 10px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
