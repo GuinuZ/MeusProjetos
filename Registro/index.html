@@ -1,0 +1,36 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="estilo.css"></link>
+		<title>Registrar pesagem de Torta</title>
+	</head>
+	<body>
+		<header class="top-container">
+			<h1>Pesagem de Torta</h1>
+		</header>
+		<form class="input-container">
+			<div class="torta">
+				<label for="torta">Caminhão </label>
+				<input type="number" id="torta"></input>
+			</div>	
+			<div class="peso">
+				<label for="peso">Peso </label>
+				<input type="number" id="peso"></input>
+			</div>
+			<div class="submit">
+				<input onclick="show() "type="button" id="enviar" value="Registrar"></input>
+			</div>
+		</form>
+		<main class="main-container">
+			<div class="lista">	
+				<table id="mostrar">
+					<tr class="tabela">
+						<th>Caminhão</th>
+						<th>Peso</th>
+					</tr>
+				</table>
+			</div>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>

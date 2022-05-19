@@ -6,5 +6,6 @@ Media-WebJavaScript = Pagina HTML/CSS com interações em JS para calcular a mé
 Calculadora Simples C++
 Clicker = Bot AutoClik em Python
 BackEnd = Inicio do Aprendizado. Python usando FastAPI 
+Registro - Uma AppWeb pra registrar a movimentação de caminhoes no meu trabalho.
 
 
